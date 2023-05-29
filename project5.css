@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    background-image: url(bg\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.head {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.721);
+    box-shadow: 0px 0px 15px lightgray;
+
+}
+
+#logoone {
+    width: 40px;
+    height: 40px;
+    color: green;
+    border-radius: 50%;
+    margin: 0px 90px;
+
+}
+
+.bars ul {
+    display: flex;
+}
+
+.bars ul li {
+    list-style: none;
+}
+
+.bars ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.bars ul li a:hover {
+    color: orange;
+    transition: 0.3s ease-in-out;
+}
+
+
+#active {
+    border: 2px solid wheat;
+    padding: 4px;
+    border-radius: 4px;
+    color: orange;
+    transition: 0.3s ease-in-out;
+}
+
+#active:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(1.04);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.sectionone {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.text {
+    width: 50%;
+    /* text-align: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+    position: relative;
+
+}
+
+.manpng {}
+
+.manpng:hover {
+    transform: scale(1.04);
+    transition: all 0.3s ease-in-out;
+}
+
+.contain {
+    padding: 0px 30px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+
+
+    /* border: 2px solid red; */
+
+
+}
+
+#small {
+    font-size: 15px;
+    color: ;
+}
+
+span {
+    font-size: 37px;
+}
+
+#color {
+    color: orange;
+}
+
+.btn {
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: orange;
+
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+#btnn:hover {
+    background-color: rgba(37, 37, 231, 0.893);
+    color: white;
+}
+
+.foot {
+    width: 100%;
+    background-color: blue;
+    height: 400px;
+}
+
+#extra {
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 255, 0.301);
+}
+
+.social {
+    display: flex;
+    padding: 10px 0px;
+
+
+
+}
+
+.circul {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+#facebook {}
