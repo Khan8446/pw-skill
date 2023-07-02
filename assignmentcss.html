@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS assignment</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-weight: bold;
+
+
+        }
+
+        /* question 1 css */
+
+        .navbar {
+            width: 100%;
+            background-color: #2727d2;
+
+
+        }
+
+        .main {
+
+            margin-left: 10px;
+        }
+
+        .main ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .main ul li {
+
+            padding: 15px 10px;
+        }
+
+
+
+        .main ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+        }
+
+        .main ul li a:hover {
+            color: orange;
+        }
+
+        /* question 2 css */
+        .box {
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+            background-color: aqua;
+            padding: 8px;
+            border-radius: 7px;
+        }
+
+        img {
+            border-radius: 7px;
+
+        }
+
+        span {
+
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Question No.3 css  */
+
+        .navbarone {
+            width: 100%;
+            background-color: #2727d2;
+            margin-top: 20px;
+
+
+        }
+
+        .mainone {
+
+            margin-left: 10px;
+        }
+
+        .mainone ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .mainone ul li {
+            padding: 15px 10px;
+        }
+
+        .mainone ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+        }
+
+        .mainone ul li a:hover {
+            color: orange;
+
+        }
+
+        #aone {
+            padding: 5px;
+            /* visibility: hidden; */
+        }
+
+        #aone:hover {
+            border-bottom: 2px solid orange;
+
+        }
+
+        #atwo {
+            padding: 5px;
+            border: 2px solid rgb(21, 225, 21);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 4px;
+
+        }
+
+        #athree {
+            border-bottom: 3px dotted red;
+            padding: 5px;
+
+        }
+
+        #afour {
+            border-left: 2px dashed rgb(185, 236, 84);
+            border-bottom: 2px dashed rgb(185, 235, 84);
+            padding: 5px;
+        }
+
+        /* Question No. 4 css */
+        .circul {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(to right, orange, green, yellow);
+            border-radius: 50%;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h3> 1.create a navigation bar similar to below mention. the navigation bar must containnavigation links
+        that are proparly placed within navigation bar using css box model . 
+        the navigation bar must change their color on hover.  
+    </h3> -->
+    <div class="navbar">
+        <div class="main">
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about us">About Us</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="login">Login</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--  create a div centered with an image and paragraph similar to the image below  -->
+    <div class="box">
+        <div class="subbox">
+            <img src="Website.jpg" alt="" width="240px">
+        </div>
+        <span>Course Name: PW Skill Sigma 2.0 </span>
+    </div>
+    <!-- create a navigation bar similar to question no. 1.for each navigation item use different border style -->
+
+    <div class="navbarone">
+        <div class="mainone">
+            <ul>
+                <li><a href="home" id="aone">Home</a></li>
+                <li><a href="about us" id="atwo">About Us</a></li>
+                <li><a href="contact" id="athree">Contact</a></li>
+                <li><a href="blog" id="afour">Blog</a></li>
+                <li><a href="login">Login</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- create a simple webpage with a image and make the image circul using border-radius -->
+    <div class="circul">
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
